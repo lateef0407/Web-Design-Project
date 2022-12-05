@@ -30,6 +30,7 @@ Understandable- its showcase my work clearly in understandable manner.
 
 
 4. Briefly explain what search engine optimization strategy or strategies were used in your website.
+
 As this a portfolio website I have used  meta name="keywords" and "description" as search engine optimization strategy.
 In keywords i have used keywords such as Resume , a Portfolio , showcase your work using portfolio, Portfolio for students.
 In description i have used short and simple description.
