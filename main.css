@@ -1,0 +1,309 @@
+body {
+	background: url("images/hero.jpg")no-repeat center center fixed; 
+	background-size: cover;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-repeat: repeat;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+}
+
+
+#header {
+	background-color: #ffffff;
+	border-bottom: 1.5px solid #cccccc;
+	position: fixed;
+	width: 100%;
+	margin: 0 0 30px;
+	z-index: 99;
+	overflow: auto;
+	opacity: 0.95;
+
+}
+
+#myName {
+	color: black;
+	background-color: #8dd3ea;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 300px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	float: left;
+}
+
+nav {
+	margin-top: 30px;
+	float: right;
+	text-align: right;
+}
+
+nav a {
+	display: inline-block;
+	margin-left: 15px;
+	line-height: 18px;
+}
+
+nav a:hover {
+	background-color: #5ACCC6;
+}
+
+p {
+	color: black;
+}
+
+#bold{
+  text-decoration: underline;
+}
+#text {
+	width: auto;
+	line-height: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+#main-container {
+	padding-top: 110px;
+	min-height: calc(100vh - 70px);
+  
+}
+
+#profileImg {
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-right: 30px;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #8dd3ea;
+	display: block;
+	padding: 20px 0;
+	border-bottom: 1.5px solid #8dd3ea;
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+#footer {
+	background-color: #8dd3ea;
+  color: black;
+  clear: both;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+h6 {
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 30px;
+	border-top: 5px solid #8dd3ea;
+}
+
+.content {
+	padding: 30px;
+	width: 100%;
+	max-width: 960px;
+	box-sizing: border-box;
+	margin: 0 0 40px;
+	background-color: #d8e8ea;
+	overflow: auto;
+	opacity: 0.95;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #7f1564;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: black;
+	line-height: 1.5em;
+}
+
+input {
+	color: black;
+	width: 100%;
+}
+
+.required{
+  color: red;
+}
+
+textarea {
+	color: black;
+	width: 100%;
+	min-height: 100px;
+}
+
+
+textarea {
+	border: 1px solid #dddddd;
+}
+
+button {
+	background-color: #8dd3ea;
+	color: #2d2c2c;
+  font-weight: 100%;
+	width: 105px;
+	border: 0;
+	padding: 8px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #d2d2d2;
+}
+
+.imageSection {
+	width: 48%;
+	position: relative;
+	overflow: auto;
+	margin: 20px 0;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.imageSection img {
+	width: 100%;
+	height: auto;
+}
+
+.banner {
+	position: absolute;
+	bottom: 50px;
+	left: 0%;
+	width: 100%;
+	padding: 20px 0;
+	color: #222121;
+	text-align: center;
+	background-color: #8dd3ea;
+	font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+#contactInfo {
+	background-color: #d8e8ea;
+}
+
+@media screen and (max-width: 980px) {
+	.container {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 40px;
+	}
+
+	.content {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.content {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.container {
+		padding: 0;
+	}
+
+	#myName {
+		width: 100%;
+	}
+
+	nav {
+		width: 100%;
+		margin: 0 auto;
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
+	}
+
+	#profileImg {
+		width: 100%;
+	}
+
+	#main-container {
+		padding: 160px 20px;
+	}
+
+	.row {
+		flex-direction: column;
+
+	}
+
+	.imageSection {
+		width: 100%;
+	}
+
+}
